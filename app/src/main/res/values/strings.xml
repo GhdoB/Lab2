@@ -9,5 +9,6 @@
         <item>Words</item>
         <item>Punctuation</item>
         <item>Numbers</item>
+        <item>Chars</item>
     </string-array>
 </resources>

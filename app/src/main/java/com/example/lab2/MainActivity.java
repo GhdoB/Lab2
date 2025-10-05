@@ -77,6 +77,9 @@ public class MainActivity extends AppCompatActivity {
             case "Numbers":
                 result = TextCalc.countNumbers(inputText);
                 break;
+            case "Chars":
+                result = TextCalc.countAllChars(inputText);
+                break;
             default:
                 Toast.makeText(MainActivity.this, "Invalid selection!", Toast.LENGTH_SHORT).show();
                 return;

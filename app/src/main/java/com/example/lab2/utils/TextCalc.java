@@ -37,7 +37,7 @@ public class TextCalc {
 
         int count = 0;
         for (char c : text.toCharArray()) {
-            if (c == '.' || c == ',' || c == ' ') {
+            if (c == '.' || c == ',' || c == '!' || c == '?' || c == ':' || c == ';' || c == '"' || c == '(' || c == ')' || c == '[' || c == ']' || c == '-' || c == '/') {
                 count++;
             }
         }
@@ -61,6 +61,12 @@ public class TextCalc {
             }
         }
         return count;
+    }
+
+    public static int countAllChars (String text) {
+        if (text == null) return 0;
+
+        return text.length();
     }
 }
 
