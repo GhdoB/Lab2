@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Lab2</string>
+    <string name="hint_enter_txt">Enter text here...</string>
+    <string name="btn_count">Count</string>
+    <string name="result_default">Result will appear here.</string>
+    
+    <string-array name="spinner_content">
+        <item>Sentences</item>
+        <item>Words</item>
+        <item>Punctuation</item>
+        <item>Numbers</item>
+    </string-array>
 </resources>
