@@ -22,7 +22,7 @@ public class TextCalc {
     public static int countWords(String text) {
         if (text == null || text.trim().isEmpty()) return 0;
 
-        Pattern pattern = Pattern.compile("\\b\\w+\\b");
+        Pattern pattern = Pattern.compile("\\b[a-zA-Z]+\\b");
         Matcher matcher = pattern.matcher(text);
 
         int count = 0;
