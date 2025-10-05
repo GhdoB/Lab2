@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/tvRezults"
+        android:id="@+id/tvResults"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/result_default"
@@ -18,13 +18,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/edtextUserInput"
+        android:id="@+id/edUserInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
         android:text="@string/hint_enter_txt"
-        app:layout_constraintBottom_toTopOf="@+id/tvRezults"
+        app:layout_constraintBottom_toTopOf="@+id/tvResults"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -34,12 +34,13 @@
         android:layout_height="33dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvRezults" />
+        app:layout_constraintTop_toBottomOf="@+id/tvResults" />
 
     <Button
         android:id="@+id/btCount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="onBtnClick"
         android:text="@string/btn_count"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
